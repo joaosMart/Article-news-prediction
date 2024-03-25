@@ -16,5 +16,7 @@ Below one can observe the distribution of the number of labels per article.
 
 ## Feature Engineering
 
-In order to get the data in a format the model can be trained on the articles need to be processed. First the TF-IDF was applied in order to vectorize the articles. 
+In order to get the data in a format the model can be trained on the articles need to be processed. First the TF-IDF was applied in order to vectorize the articles. To speed up the training and also improve the model perfomance Latent Semantyc Analysis (LSA or TruncatedSVD) will be influded after the vectorization. This method uses value decomposition in order to find hidden patterns in the relationship between words and topics of the article. This method is helpful because it helps improving the results while also decreasing a lot the dimensionality of the data. The model will receive the same amount of samples but only the same amount of features as there are topics.
+
+## Model Training and Evaluation 
 
