@@ -1,3 +1,4 @@
+# News Articles: Model Training and Deployment
 
 This project was done with the main goal of practicing and applying my knowledge on how to build an end-to-end machien learning project. This goes from scraping data, feature enginerring up to training and evaluating the model and deploying it in a local server using Flask and an EC2 instance. The main motivation was the practice of model deployment and scraping data in a usable format to be further used in a model. 
 ## Data 
@@ -36,8 +37,8 @@ Looking at the model we can observe that better performance would probably be fe
 
 ## Model Deployment
 
-To deploy a model is important to save the afore mentioned TF-IDF, LSA and model in the correct fromat in order to run them once we try to run our app. All the files necessary to deploy the model and run the app can be found in the [deployment](https://github.com/joaosMart/Article-news-prediction/tree/main/deployment). The model was deployed in such manner that it outputs either at least one of the topics or a "This has noe category" message if the input is not related with any of the topics. 
+To deploy a model is important to save the afore mentioned TF-IDF, LSA and model in the correct fromat in order to run them once we try to run our app. All the files necessary to deploy the model and run the app can be found in the [deployment](https://github.com/joaosMart/Article-news-prediction/tree/main/deployment) folder. The model was deployed in such manner that it outputs either at least one of the topics or a "This has noe category" message if the input is not related with any of the topics. 
 
 Below a demo of the app can be observed in the video. 
 
-
+<video src='https://github.com/joaosMart/Article-news-prediction/assets/163843101/89a33a7a-3634-412d-8cb2-42c39037ab4f' width=50/>
