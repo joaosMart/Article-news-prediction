@@ -9,3 +9,12 @@ The data in use was scraped from multiple websites with icelandic news. From the
 The label distribution found in the data follows the following distribution. 
 
 ![topics_distribution](images/label_articles_distribution.png)
+
+Below one can observe the distribution of the number of labels per article. 
+
+![number-labels-distribution](images/labels_per_article.png)
+
+## Feature Engineering
+
+In order to get the data in a format the model can be trained on the articles need to be processed. First the TF-IDF was applied in order to vectorize the articles. 
+
